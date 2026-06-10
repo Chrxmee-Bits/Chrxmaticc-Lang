@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
-const ICON = path.resolve(__dirname, '..', 'chrxmaticc.svg');
+const ICON = path.resolve(__dirname, 'chrxmaticc.svg');
 
 const VALID = new Set([
     '.chrxm', '.chrxg', '.chrxw', '.chrxi', '.chrxs',

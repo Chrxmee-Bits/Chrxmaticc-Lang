@@ -1,6 +1,6 @@
 from pathlib import Path
 
-ICON = Path(__file__).parent.parent / "chrxmaticc.svg"
+ICON = Path(__file__).parent / "chrxmaticc.svg"
 
 VALID = {
     ".chrxm", ".chrxg", ".chrxw", ".chrxi", ".chrxs",
