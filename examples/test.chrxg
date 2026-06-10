@@ -1,0 +1,29 @@
+~chrxg
+
+scene TestLevel
+    background: "test_bg.png"
+    music: "test_theme"
+
+    camera
+        zoom: 1.0
+    end
+
+    entity Player
+        position: 100, 200
+        sprite: "player.png"
+        collision
+            type: box
+            size: 32, 32
+        end
+    end
+
+    entity Enemy
+        position: 400, 200
+        sprite: "enemy.png"
+        patrol
+            waypoints: 300,200 to 500,200
+            speed: 50
+            loop: true
+        end
+    end
+end

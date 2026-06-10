@@ -1,0 +1,28 @@
+~chrxw
+
+panel MainMenu {
+    layout {
+        direction: column
+        align: center
+        justify: center
+        gap: 16
+    }
+
+    text Title {
+        text: "Chrxmaticc"
+        font_size: 48
+        color: #ffcc00
+    }
+
+    button StartBtn {
+        text: "Start Game"
+        width: 200
+        height: 50
+    }
+
+    button QuitBtn {
+        text: "Quit"
+        width: 200
+        height: 50
+    }
+}

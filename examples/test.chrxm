@@ -1,0 +1,7 @@
+~chrxm
+
+fn greet(name)
+    print("Hello, " + name + "!")
+end
+
+greet("Sir Sir")

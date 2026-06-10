@@ -1,0 +1,25 @@
+{
+    "scopeName": "source.chrxmaticc",
+    "patterns": [
+        {
+            "name": "comment.line.chrxmaticc",
+            "match": "--.*$"
+        },
+        {
+            "name": "keyword.control.chrxmaticc",
+            "match": "\\b(fn|if|then|else|end|loop|while|forever|times|let|return|match|when|break|continue|scene|entity|camera|panel|button|text|input|grid|animation|keyframe|particle|style|spawn|quest|background|music|viewport|collision|patrol|trigger|layout|slider|toggle|dropdown|modal|tooltip|tabs|scroll|image|video|canvas|spacer|divider|filter|gradient|rect|circle|ellipse|path|poly|line|group|emitter)\\b"
+        },
+        {
+            "name": "string.quoted.double.chrxmaticc",
+            "match": "\"[^\"]*\""
+        },
+        {
+            "name": "constant.numeric.chrxmaticc",
+            "match": "\\b[0-9]+(\\.[0-9]+)?\\b"
+        },
+        {
+            "name": "constant.language.chrxmaticc",
+            "match": "\\b(true|false|yes|no|null|none)\\b"
+        }
+    ]
+}
