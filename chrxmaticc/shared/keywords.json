@@ -1,0 +1,7 @@
+{
+    "m": ["fn", "if", "then", "else", "end", "loop", "while", "forever", "times", "let", "return", "and", "or", "not", "true", "false", "match", "when", "break", "continue", "null"],
+    "g": ["scene", "entity", "spawn", "camera", "position", "encounter", "arena", "level", "quest", "background", "music", "viewport", "collision", "patrol", "trigger", "pathfinding", "physics", "layer", "tile", "terrain", "prefab", "template", "bounds", "velocity", "mass", "friction", "bounce"],
+    "w": ["panel", "button", "text", "input", "grid", "slider", "toggle", "dropdown", "modal", "tooltip", "tabs", "scroll", "image", "video", "canvas", "spacer", "divider", "layout", "bind", "on", "style"],
+    "i": ["name", "health", "level", "items", "inventory", "stats", "dialogue", "description", "reward", "class", "quest", "gold", "damage", "speed", "sprite"],
+    "s": ["animation", "keyframe", "particle", "spritesheet", "easing", "duration", "opacity", "scale", "rotation", "tint", "glow", "shadow", "filter", "gradient", "rect", "circle", "ellipse", "path", "poly", "line", "group", "emitter"]
+}
